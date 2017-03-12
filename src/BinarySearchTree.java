@@ -95,8 +95,9 @@ public class BinarySearchTree {
 	        scan.close();
 	        int height = height(root);
 	        printLevelOrder(root);
-	        System.out.println("No of elements-"+findNoOfElements(root));
-	        System.out.println("Sum of elements-"+findSumOfElements(root));
+	        System.out.println("Height-->"+ height);
+	       // System.out.println("No of elements-"+findNoOfElements(root));
+	      //  System.out.println("Sum of elements-"+findSumOfElements(root));
 
 	    }	
 
