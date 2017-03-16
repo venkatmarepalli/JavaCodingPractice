@@ -83,8 +83,15 @@ public class BinarySearchTree {
 		 
 		 
 	}
-
+	 
+		public static int bstDistance(int[] values, int n, int node1, int node2)
+		{
+			return node2;
+			// WRITE YOUR CODE HERE
+		}
+	 
 	public static void main(String[] args) {
+		int[] a = {1,2,3,4,5};
 	        Scanner scan = new Scanner(System.in);
 	        int t = scan.nextInt();
 	        Node root = null;
